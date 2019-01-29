@@ -1,4 +1,4 @@
-class MergeSort 
+class NewSort 
 { 
    
     void merge(int arr[], int l, int m, int r) 
@@ -89,7 +89,7 @@ class MergeSort
         System.out.println("Given Array"); 
         printArray(arr); 
   
-        MergeSort ob = new MergeSort(); 
+        NewSort ob = new NewSort(); 
         ob.sort(arr, 0, arr.length-1); 
   
         System.out.println("\nSorted array"); 
